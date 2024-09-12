@@ -42,7 +42,6 @@ html,body{
     background-color:  rgba(12, 16, 56, 0.932);
 }
 #logo{
-    padding-top: 14px;
     margin-left: 20px;
     margin-top: 3px;
     margin-right: 15px;
@@ -61,11 +60,10 @@ html,body{
     color: rgba(12, 16, 56, 0.932);
 }
 .text:hover{
-    text-decoration: none;
+    text-decoration: underline;
     color: rgb(41, 71, 172);
     border-radius: 38%;
 }
-
 .icon{
     margin:5px;
     padding: 5px;
@@ -97,7 +95,7 @@ html,body{
 .container .wrapper{
     width: 100vw;
     height: 75vh;
-    /* box-shadow: 10px 10px 20px rgba(0,0,0,0.6); */
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.6);
     margin: 5 rem auto;
     overflow: hidden;
 }
@@ -108,30 +106,24 @@ html,body{
     width: 100%;
     animation: slider 35s ease-in-out infinite alternate;
 }
-
-.container .wrapper-holder div {
+.container .wrapper-holder div{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
 }
-
 .container #slider-img-1{
-    background-image: url(https://static.vecteezy.com/system/resources/previews/017/371/950/original/doctor-and-patient-in-hospital-png.png);
+    background-image: url(https://media.istockphoto.com/id/1262283582/photo/indian-ethnic-female-doctor-physician-gp-wearing-glasses-white-coat-stethoscope-writing.webp?a=1&b=1&s=612x612&w=0&k=20&c=C7TwXaiMPUuMJnxs1Blw-Oryoec_0HnsAUiIMjonsmo=);
 }
 .container #slider-img-2{
-    background-image: url(https://w0.peakpx.com/wallpaper/315/432/HD-wallpaper-medical-hospital.jpg);
-    background-position: contain;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673953509975-576678fa6710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhbHRoY2FyZXxlbnwwfHwwfHx8MA%3D%3D);
 }
 .container #slider-img-3{
-    background-image: url(https://images7.alphacoders.com/697/thumb-1920-697207.jpg);
-    background-position: contain;
-
+    background-image: url(https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVkaWNhbHxlbnwwfHwwfHx8MA%3D%3D);
 }
 .container #slider-img-4{
     background-image: url(https://plus.unsplash.com/premium_photo-1661685719955-0c8dae8ebad1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWVkaWNhbCUyMHJlcG9ydHxlbnwwfHwwfHx8MA%3D%3D);
-    background-position: contain;
 }
 .container .button-holder .button{
     background-color: white;
@@ -337,18 +329,15 @@ html,body{
 }
 #footer h2{
     font-size:41px;
-    /* padding-left:450px; */
     padding-top: 25px;
 }
 #footer pre{
     font-size:larger;
-    /* padding-left: 410px; */
     padding-top: 10px;
 }
 #foot h2{
-    padding-top:25px;
+    padding-top:50px;
     font-size: 35px;
-
 }
 .images{
     padding-top: 5px;
@@ -359,12 +348,11 @@ html,body{
 #contact h2{
     font-size: xx-large;
     padding-left:5px;
-    padding-top:60px;
+    padding-top:50px;
 }
-/* #i7{
+#i7{
     font-size: xx-large;
-} */
-
+}
 #i8{
     font-size: x-large;
 }
