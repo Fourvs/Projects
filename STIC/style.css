@@ -1,0 +1,219 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'monospace';
+}
+header img{
+    width: 100%;
+    height:250px;
+}
+header h2{
+    margin-top: 5px;
+    color: rgba(12, 16, 56, 0.932);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header p{
+    margin-top: 55px;
+    color: rgba(5, 10, 58, 0.932);;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    font-size:75px;
+}
+.about, .features {
+    padding: 40px 20px;
+}
+
+.feature-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: calc(30% - 40px);
+    display: inline-block; 
+}
+
+.features {
+    justify-content: center; 
+}
+
+@media (max-width: 768px) {
+   .feature-item {
+       width: calc(100% - 40px); 
+   }
+}
+
+footer {
+   background-color: #333;
+   color: white;
+   padding: 20px;
+   position: relative; 
+   bottom: 0; 
+   width: 100%;
+}
+
+.animate {
+   animation: fadeInUp 1s forwards; 
+   opacity: 0; 
+   transform: translateY(20px); 
+}
+
+.delay-1 { animation-delay: 1s; }
+.delay-2 { animation-delay: 2s; }
+.delay-3 { animation-delay: 3s; }
+.delay-4 { animation-delay: 4s; }
+.delay-5 { animation-delay: 5s; }
+.delay-6 { animation-delay: 6s; }
+.delay-7 { animation-delay: 7s; }
+.delay-8 { animation-delay: 8s; }
+
+@keyframes fadeInUp {
+   to {
+       opacity: 1;
+       transform: translateY(0); 
+   }
+}
+#card1{
+    margin-left:30px;
+    margin-bottom: 100px;
+    height:100%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.781) 1px 1px 1px 1px;
+    width: 23%;
+}
+#card1 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#card2 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#card3 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#card2{
+    margin-left:30px;
+    margin-bottom: 100px;
+    height:100%;
+    border-radius: 15px;
+    width: 23%;
+    box-shadow: rgba(0, 0, 0, 0.781) 1px 1px 1px 1px;
+}
+#card3{
+    margin-left:30px; 
+    margin-bottom: 100px;
+    height: 100%;
+    border-radius: 15px;
+    width: 23%;
+    box-shadow: rgba(0, 0, 0, 0.781) 1px 1px 1px 1px;
+}
+#page2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    height:87%;
+    width: 100%;
+}
+.features h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(5, 10, 58, 0.932);
+    font-size: 50px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p h2{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(5, 10, 58, 0.932);
+    font-size: 50px;
+}
+#page4{
+    height: 88vh;
+    width: 100%;
+    background-color: white;
+}
+#ty{
+    padding: 15px;
+    padding-top: 30px;
+    padding-left: 25px;
+    color: white;
+    font-size: larger;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    padding-top: 30px;
+    background-color: black;
+    height: 100vh;
+    margin-top: 100px;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+}
+#footer h2{
+    font-size:41px;
+    padding-top: 25px;
+}
+#footer pre{
+    font-size:larger;
+    padding-top: 10px;
+}
+#foot h2{
+    padding-top:50px;
+    font-size: 35px;
+}
+.images{
+    cursor: pointer;
+    display: flex;
+    padding-top: 11px;
+    padding-left:575px;
+    justify-items: center;
+    gap: 10px;
+    height: 10px;
+    width: 100px;
+}
+#contact h2{
+    font-size: xx-large;
+    padding-left:5px;
+    padding-top:50px;
+}
+#i7{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+#i8{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    justify-content: center;
+}
+#copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    padding-top:40px;
+}
