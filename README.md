@@ -1,2 +1,2 @@
 # Projects 
-My Project Portfolio & Website Clones. 
+My Project Portfolio & Website Clones.
